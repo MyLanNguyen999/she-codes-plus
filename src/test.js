@@ -36,7 +36,7 @@ function searchPlace(place) {
     //console.log(newCity);
 
     function showTemperature(response) {
-        event.preventDefault();
+        /* event.preventDefault(); */
         let degree = document.querySelector("#degreeShow");
         let temperature = Math.round(response.data.main.temp);
         document.querySelector("#high-temp").innerHTML = Math.round(response.data.main.temp_max);
