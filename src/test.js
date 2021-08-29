@@ -63,7 +63,7 @@ function searchPlace(event) {
 let button = document.querySelector("button");
 button.addEventListener("click", searchPlace);
 
-/* function showPosition(position) {
+function showPosition(position) {
 
     let h3 = document.querySelector("h3");
     let latitude = position.coords.latitude;
@@ -79,4 +79,4 @@ function getCurrentPosition() {
 }
 
 let gPS = document.querySelector("button1");
-gPS.addEventListener("click", getCurrentPosition); */
+gPS.addEventListener("click", getCurrentPosition);
